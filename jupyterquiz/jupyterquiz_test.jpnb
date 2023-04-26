@@ -1,2 +1,0 @@
-!pip install jupyterquiz
-display_quiz("questions.json")
