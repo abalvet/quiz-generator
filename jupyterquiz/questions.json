@@ -6,24 +6,106 @@
             {
                 "answer": "Agent",
                 "correct": false,
-                "feedback": "Non"
+                "feedback": "Essaie encore..."
             },
             {
                 "answer": "Sujet",
                 "correct": true,
-                "feedback": "Correct."
+                "feedback": "Correct!!!"
             },
             {
                 "answer": "Nom commun",
                 "correct": false,
-                "feedback": "Non."
+                "feedback": "Essaie encore..."
             },
             {
                 "answer": "Nom propre",
                 "correct": false,
-                "feedback": "Non."
+                "feedback": "Essaie encore..."
             }
         ]
+    },
+    {
+        "question": "Donner la fonction de \"Partir\" dans la phrase: \"Partir à l'étranger semble impossible à Max en ce moment.\"",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Verbe infinitif",
+                "correct": false,
+                "feedback": "Ce n'est pas une fonction..."
+            },
+            {
+                "answer": "Sujet",
+                "correct": true,
+                "feedback": "Correct!!!"
+            },
+            {
+                "answer": "Proposition Subordonnée Infinitive",
+                "correct": false,
+                "feedback": "Ce n'est pas une fonction..."
+            },
+            {
+                "answer": "Adverbe",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            }
+        ]
+    },
+    {
+        "question": "Donner la partie du discours de \"que\" dans la phrase: \"J'espère que Léa pourra venir.\"",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Pronom Relatif",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "Conjonction de coordination",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "Adverbe",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "Conjonction de Subordination",
+                "correct": true,
+                "feedback": "Bravo!!!"
+            }
+        ]
+    },
+    {
+        "question": "Dans la phrase: \"Léa sait que Max espère partir demain.\", \"que\" est:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "un mot grammatical",
+                "correct": true,
+                "feedback": "Oui"
+            },
+            {
+                "answer": "Sujet",
+                "correct": false,
+                "feedback": "Essaie encore...!"
+            },
+            {
+                "answer": "une Conjonction de Subordination",
+                "correct": true,
+                "feedback": "Bravo!"
+            },
+            {
+                "answer": "un Pronom Relatif",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "une Préposition",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            }            
+        ]
     }
- 
 ]
