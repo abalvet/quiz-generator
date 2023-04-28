@@ -14590,7 +14590,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+</div>
+
+</div>
+
+</div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
@@ -14602,7 +14615,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<div id="XuiZODRdduvt" data-shufflequestions="False"
+<div id="CulRSDPZpBIU" data-shufflequestions="False"
                data-shuffleanswers="True"
                data-preserveresponses="false"
                data-numquestions="1000000"
@@ -14780,10 +14793,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 
-<div id="83f63d61-a623-440e-87bb-33c3c25f4e11" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="2943c8c9-8239-46b6-bd67-28df11a4a626" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('83f63d61-a623-440e-87bb-33c3c25f4e11');
-var questionsXuiZODRdduvt=[
+var element = document.getElementById('2943c8c9-8239-46b6-bd67-28df11a4a626');
+var questionsCulRSDPZpBIU=[
     {
         "question": "Donner la fonction de \"Max\" dans la phrase: \"Max connaît Léa\"",
         "type": "many_choice",
@@ -14791,26 +14804,108 @@ var questionsXuiZODRdduvt=[
             {
                 "answer": "Agent",
                 "correct": false,
-                "feedback": "Non"
+                "feedback": "Essaie encore..."
             },
             {
                 "answer": "Sujet",
                 "correct": true,
-                "feedback": "Correct."
+                "feedback": "Correct!!!"
             },
             {
                 "answer": "Nom commun",
                 "correct": false,
-                "feedback": "Non."
+                "feedback": "Essaie encore..."
             },
             {
                 "answer": "Nom propre",
                 "correct": false,
-                "feedback": "Non."
+                "feedback": "Essaie encore..."
             }
         ]
+    },
+    {
+        "question": "Donner la fonction de \"Partir\" dans la phrase: \"Partir à l'étranger semble impossible à Max en ce moment.\"",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Verbe infinitif",
+                "correct": false,
+                "feedback": "Ce n'est pas une fonction..."
+            },
+            {
+                "answer": "Sujet",
+                "correct": true,
+                "feedback": "Correct!!!"
+            },
+            {
+                "answer": "Proposition Subordonnée Infinitive",
+                "correct": false,
+                "feedback": "Ce n'est pas une fonction..."
+            },
+            {
+                "answer": "Adverbe",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            }
+        ]
+    },
+    {
+        "question": "Donner la partie du discours de \"que\" dans la phrase: \"J'espère que Léa pourra venir.\"",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Pronom Relatif",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "Conjonction de coordination",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "Adverbe",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "Conjonction de Subordination",
+                "correct": true,
+                "feedback": "Bravo!!!"
+            }
+        ]
+    },
+    {
+        "question": "Dans la phrase: \"Léa sait que Max espère partir demain.\", \"que\" est:",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "un mot grammatical",
+                "correct": true,
+                "feedback": "Oui"
+            },
+            {
+                "answer": "Sujet",
+                "correct": false,
+                "feedback": "Essaie encore...!"
+            },
+            {
+                "answer": "une Conjonction de Subordination",
+                "correct": true,
+                "feedback": "Bravo!"
+            },
+            {
+                "answer": "un Pronom Relatif",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            },
+            {
+                "answer": "une Préposition",
+                "correct": false,
+                "feedback": "Essaie encore..."
+            }            
+        ]
     }
- 
 ]
 ;
     // Make a random ID
@@ -15557,10 +15652,10 @@ if (typeof version == 'undefined') {
 
         fetch("https://raw.githubusercontent.com/abalvet/quiz-generator/main/jupyterquiz/questions.json", {signal})
         .then(response => response.json())
-        .then(json => show_questions(json, XuiZODRdduvt))
+        .then(json => show_questions(json, CulRSDPZpBIU))
         .catch(err => {
         console.log("Fetch error or timeout");
-        show_questions(questionsXuiZODRdduvt, XuiZODRdduvt);
+        show_questions(questionsCulRSDPZpBIU, CulRSDPZpBIU);
         });
         }
         
